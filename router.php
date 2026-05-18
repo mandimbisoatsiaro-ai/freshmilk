@@ -1,15 +1,11 @@
 <?php
 
-if (php_sapi_name() === 'cli-server') {
+$path = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 
-    $path = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
+$file = __DIR__ . $path;
 
-    $fullPath = __DIR__ . $path;
-
-    if ($path !== '/' && file_exists($fullPath)) {
-
-        return false;
-    }
+if ($path !== "/" && file_exists($file)) {
+    return false;
 }
 
-require_once __DIR__ . '/index.php';
+include __DIR__ . "/index.php";
