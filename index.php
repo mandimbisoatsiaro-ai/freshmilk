@@ -236,7 +236,7 @@
     <?php
 
 
-include "include/db.php";
+
 
 $query = $pdo->query("
     SELECT *
