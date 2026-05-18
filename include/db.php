@@ -1,10 +1,10 @@
 <?php
 
-$host = "localhost";
-$port = "5432";
-$dbname = "freshmilk";
-$user = "postgres";
-$password = "printsidonie";
+$host = getenv("PGHOST");
+$dbname = getenv("PGDATABASE");
+$user = getenv("PGUSER");
+$password = getenv("PGPASSWORD");
+$port = getenv("PGPORT");
 
 try {
 
@@ -18,8 +18,6 @@ try {
 
 } catch (PDOException $e) {
 
-    die("Erreur de connexion PostgreSQL : " . $e->getMessage());
+    die("Erreur connexion : " . $e->getMessage());
 
 }
-
-?>
