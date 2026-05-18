@@ -1,0 +1,9 @@
+.git
+.github
+node_modules
+vendor
+uploads
+*.log
+.DS_Store
+.gitignore
+README.md
