@@ -1,0 +1,47 @@
+/* ========================================
+   ABOUT DARK MODE FIX
+======================================== */
+
+body.dark .about {
+
+    background: #020b2d;
+}
+
+/* VALUE CARDS */
+
+body.dark .value-card {
+
+    background: #1e293b;
+
+    color: white;
+}
+
+/* TEAM TEXT */
+
+body.dark .team-card h3,
+body.dark .team-card p {
+
+    color: white;
+}
+
+/* CTA SECTION */
+
+body.dark .about-cta {
+
+    background: #1e293b;
+}
+
+body.dark .about-cta h2,
+body.dark .about-cta p {
+
+    color: white !important;
+}
+
+/* BUTTON */
+
+body.dark .about-cta .btn {
+
+    background: #22c55e;
+
+    color: white;
+}

@@ -1,0 +1,49 @@
+.message-card {
+
+    background: #111827;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    transition: 0.3s;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+}
+
+.message-card:hover {
+
+    transform: translateY(-5px);
+
+    border-color: #3b82f6;
+
+}
+
+.message-card h2 {
+
+    color: white;
+
+    margin-bottom: 15px;
+
+}
+
+.message-card p {
+
+    color: #d1d5db;
+
+    line-height: 1.7;
+
+    margin-bottom: 10px;
+
+}
+
+.message-card small {
+
+    color: #9ca3af;
+
+}

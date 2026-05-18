@@ -1,0 +1,267 @@
+/* =========================================
+   ORDERS PAGE
+========================================= */
+
+.orders-page {
+
+    min-height: 100vh;
+
+    padding: 120px 40px 80px;
+
+    background: #050816;
+
+    color: white;
+
+}
+
+.orders-header {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+.orders-header h1 {
+
+    font-size: 3rem;
+
+    margin-bottom: 15px;
+
+}
+
+.orders-header p {
+
+    color: #9ca3af;
+
+}
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.orders-container {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+
+}
+
+/* =========================================
+   ORDER CARD
+========================================= */
+
+.order-card {
+
+    background: linear-gradient(145deg,
+            #111827,
+            #1f2937);
+
+    padding: 30px;
+
+    border-radius: 24px;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+}
+
+/* =========================================
+   TOP
+========================================= */
+
+.order-top {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 30px;
+
+}
+
+/* =========================================
+   STATUS
+========================================= */
+
+.order-status {
+
+    padding: 10px 18px;
+
+    border-radius: 12px;
+
+    font-size: 0.9rem;
+
+    font-weight: 700;
+
+}
+
+/* STATUS COLORS */
+
+.pending {
+
+    background: #f59e0b;
+
+    color: white;
+
+}
+
+.processing {
+
+    background: #3b82f6;
+
+    color: white;
+
+}
+
+.shipping {
+
+    background: #8b5cf6;
+
+    color: white;
+
+}
+
+.delivered {
+
+    background: #10b981;
+
+    color: white;
+
+}
+
+.cancelled {
+
+    background: #ef4444;
+
+    color: white;
+
+}
+
+/* =========================================
+   ITEMS
+========================================= */
+
+.order-items {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+}
+
+.order-item {
+
+    display: flex;
+
+    gap: 20px;
+
+    align-items: center;
+
+    padding: 20px;
+
+    border-radius: 16px;
+
+    background: rgba(255, 255, 255, 0.03);
+
+}
+
+.order-item img {
+
+    width: 90px;
+
+    height: 90px;
+
+    object-fit: cover;
+
+    border-radius: 16px;
+
+}
+
+/* =========================================
+   TOTAL
+========================================= */
+
+.order-total {
+
+    margin-top: 30px;
+
+    text-align: right;
+
+    font-size: 1.3rem;
+
+    font-weight: bold;
+
+    color: #3b82f6;
+
+}
+
+/* =========================================
+   EMPTY
+========================================= */
+
+.empty-orders {
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .orders-page {
+
+        padding: 100px 20px 60px;
+
+    }
+
+    .orders-header h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .order-top {
+
+        flex-direction: column;
+
+        gap: 20px;
+
+        align-items: flex-start;
+
+    }
+
+    .order-item {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+    .order-item img {
+
+        width: 100%;
+
+        height: 220px;
+
+    }
+
+}

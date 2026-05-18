@@ -1,0 +1,1 @@
+console.log("FreshMilk lancé");

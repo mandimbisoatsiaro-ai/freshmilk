@@ -1,0 +1,80 @@
+/* ========================================
+   CONTACT DARK MODE FINAL FIX
+======================================== */
+
+body.dark .info-box {
+
+    background: #1e293b;
+
+    color: white;
+
+    border: 1px solid #334155;
+}
+
+body.dark .info-box p,
+body.dark .info-box span,
+body.dark .info-box strong {
+
+    color: white !important;
+}
+
+/* CTA BOX */
+
+body.dark .contact-cta {
+
+    background: #1e293b;
+}
+
+body.dark .contact-cta h2,
+body.dark .contact-cta p {
+
+    color: white !important;
+}
+
+/* BOUTON */
+
+body.dark .contact-cta .btn {
+
+    background: #22c55e;
+
+    color: white;
+}
+.success-message {
+
+    background: rgba(0, 255, 150, 0.15);
+
+    border: 1px solid #00ff99;
+
+    color: #00ff99;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    font-weight: 600;
+
+}
+
+.error-message {
+
+    background: rgba(255, 0, 0, 0.15);
+
+    border: 1px solid #ff4d4d;
+
+    color: #ff4d4d;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    font-weight: 600;
+
+}
